@@ -1,6 +1,7 @@
-libhello.o: libhello.c
+libhello: libhello.c
 	gcc -c libhello.c
-hello: hello.c libhello.o
+hello: hello.c libhello
 	gcc hello.c libhello.o -o hello
 test: hello
-	./hello fulanito perenganito manuelito
+	./hello oliver bravo cedilo
+c

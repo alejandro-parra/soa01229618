@@ -2,5 +2,5 @@
 #include "./libhello.h"
 
 void printHello(char *fulanito){
-    printf("Hola %s \n", fulanito);
+    printf("Hola %s\n", fulanito);
 }
